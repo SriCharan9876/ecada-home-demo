@@ -1,5 +1,5 @@
 {
-  "version": 1762266295,
+  "version": 1762269316,
   "individual": [
     {
       "sensor": "temp",
@@ -14,7 +14,7 @@
     {
       "sensor": "ldr",
       "op": "<",
-      "value": 6.0
+      "value": 7.0
     }
   ],
   "associated": [
