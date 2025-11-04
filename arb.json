@@ -1,20 +1,20 @@
 {
-  "version": 1762269316,
+  "version": 1762270775,
   "individual": [
     {
       "sensor": "temp",
       "op": ">=",
-      "value": 32.8
+      "value": 45
     },
     {
       "sensor": "humidity",
       "op": "<=",
-      "value": 79.0
+      "value": 20
     },
     {
       "sensor": "ldr",
       "op": "<",
-      "value": 7.0
+      "value": 120
     }
   ],
   "associated": [
@@ -23,13 +23,13 @@
       "allOf": [
         {
           "sensor": "temp",
-          "min": 31.8,
-          "max": 31.8
+          "min": 38,
+          "max": 42
         },
         {
           "sensor": "humidity",
           "min": 0,
-          "max": 79.0
+          "max": 35
         }
       ]
     }
