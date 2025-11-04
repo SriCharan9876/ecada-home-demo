@@ -1,0 +1,37 @@
+{
+  "version": 1762263358,
+  "individual": [
+    {
+      "sensor": "temp",
+      "op": ">=",
+      "value": 45
+    },
+    {
+      "sensor": "humidity",
+      "op": "<=",
+      "value": 20
+    },
+    {
+      "sensor": "ldr",
+      "op": "<",
+      "value": 120
+    }
+  ],
+  "associated": [
+    {
+      "label": "hot_and_dry",
+      "allOf": [
+        {
+          "sensor": "temp",
+          "min": 38,
+          "max": 42
+        },
+        {
+          "sensor": "humidity",
+          "min": 0,
+          "max": 35
+        }
+      ]
+    }
+  ]
+}
